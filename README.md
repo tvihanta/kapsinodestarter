@@ -1,4 +1,4 @@
-####Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi for quick project startup.
+####Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi members for quick project startup.
 
 Included: 
   * [nodejs](http://nodejs.org)
