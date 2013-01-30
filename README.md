@@ -1,19 +1,29 @@
-Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi 
+####Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi for quick project startup.
 
-Contains all required libraries and nodejs.
-
-INSTALLATION
-
-Rename sample.htaccess to .htaccess. 
-Change the port number in it to match your nodejs server port.(default 306543)
-Move the .htaccess file under your public_html folder or other publicly accessible folder. 
-The .htaccess now routes requests done to that location to your nodejs server.
+Included: 
+  * [nodejs](http://nodejs.org)
+  * [express](http://expressjs.com/): web application framework for node
+  * [consolidate](https://github.com/visionmedia/consolidate.js):Template engine consolidation library.
+  * [swig](http://paularmstrong.github.com/swig/): A Node.js and Browser-based JavaScript Template Engine
+  * [nStore](https://github.com/creationix/nstore): A simple in-process key/value document store for node.js
 
 
-run mkdir data on project folder
 
+###SETUP
 
-start the server: nodejs/bin/node src/server.js
+1. Rename _sample.htaccess_ to _.htaccess_. 
+2. Change the port number in it to match your nodejs server port.(default 306543)
+3. Move the _.htaccess_ file under your public_html folder or other publicly accessible folder. 
+4. The _.htaccess_ file now routes requests done to that location to your nodejs server.
 
+5. Create data folder for nStore 
+~~~
+   mkdir data 
+   //on project root
+~~~
+6. start the server: 
+~~~   
+   nodejs/bin/node src/server.js
+~~~
 
-Profit?
+7. Profit?
