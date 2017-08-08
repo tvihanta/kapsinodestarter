@@ -1,15 +1,6 @@
-####Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi members for quick project startup.
+#### Nodejs base project utilizing express, consolidate, swig and nstore that works on Kapsi.fi members for quick project startup.
 
-Included: 
-  * [nodejs](http://nodejs.org)
-  * [express](http://expressjs.com/): web application framework for node
-  * [consolidate](https://github.com/visionmedia/consolidate.js):Template engine consolidation library.
-  * [swig](http://paularmstrong.github.com/swig/): A Node.js and Browser-based JavaScript Template Engine
-  * [nStore](https://github.com/creationix/nstore): A simple in-process key/value document store for node.js
-
-
-
-###SETUP
+### SETUP
 
 1. Rename _sample.htaccess_ to _.htaccess_. 
 2. Change the port number in it to match your nodejs server port.(default 306543)
@@ -26,4 +17,4 @@ Included:
    nodejs/bin/node src/server.js
 ~~~
 
-7. Profit?
+
